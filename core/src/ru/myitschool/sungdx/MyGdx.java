@@ -110,7 +110,7 @@ public class MyGdx extends ApplicationAdapter {
 
 	@Override
 	public void dispose () {
-		batch.dispose();
+		batch.dispose(); //
 		for (int i = 0; i < imgMosq.length; i++) {
 			imgMosq[i].dispose();
 		}
